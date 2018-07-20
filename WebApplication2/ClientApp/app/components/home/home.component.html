@@ -1,0 +1,10 @@
+<div class="row text-center">
+    <div class="col-md-12">
+        <button class="btn btn-info" (click)="toggleImgs()">Submit</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <img *ngIf="showImg" src="{{img}}" alt="" style="width: 80%;margin: 10px 120px;">
+    </div>
+</div>
